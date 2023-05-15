@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f2f2;
+  background-color: lightblue;
   font-family: Arial, sans-serif;
 }
 
@@ -15,12 +15,19 @@ body {
 h1 {
   color: #333;
   text-align: center;
+  margin: 50px;
+  padding: 10px;
+}
+
+form {
+  background-color: steelblue;
 }
 
 form label {
   display: block;
   margin-bottom: 5px;
-  color: #333;
+  color: black;
+  margin: 10px;
 }
 
 form input[type="text"],
@@ -65,4 +72,13 @@ form button[type="reset"]:focus {
 form .error {
   color: #f44336;
   margin-bottom: 10px;
+}
+
+ul li {
+  margin: 20px;
+}
+
+img {
+  float: left;
+  margin-right: 25px;
 }
